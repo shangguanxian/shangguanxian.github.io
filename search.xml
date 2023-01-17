@@ -29,31 +29,6 @@
     
     
     <entry>
-      <title>树莓派</title>
-      <link href="/2023/01/12/%E6%A0%91%E8%8E%93%E6%B4%BE-%E6%A0%91%E8%8E%93%E6%B4%BE-%E4%B8%80/"/>
-      <url>/2023/01/12/%E6%A0%91%E8%8E%93%E6%B4%BE-%E6%A0%91%E8%8E%93%E6%B4%BE-%E4%B8%80/</url>
-      
-        <content type="html"><![CDATA[<h1 id="树莓派"><a href="#树莓派" class="headerlink" title="树莓派"></a>树莓派</h1><h2 id="系统安装"><a href="#系统安装" class="headerlink" title="系统安装"></a>系统安装</h2><p>准备树莓派SD卡一张，读卡器一个<br>下载烧写软件Raspberry Pi Imager里面可以一键安装系统没有繁琐的操作</p><p>打开软件后有许多操作系统任你下载<br>下载地址：<a href="https://downloads.raspberrypi.org/imager/imager_latest.exe">https://downloads.raspberrypi.org/imager/imager_latest.exe</a><br><img src="https://img-blog.csdnimg.cn/53739ade4a474ddaa11774c8951953fa.png?x-oss-process=image/watermark,type_d3F5LXplbmhlaQ,shadow_50,text_Q1NETiBA5qOu5ZOlMDcwOA==,size_20,color_FFFFFF,t_70,g_se,x_16" alt=""></p><p>如果你下载的是无桌面版可以在这里进行配置再安装<br>在主页面点击设置图片就可以了<br><img src="https://pic2.zhimg.com/v2-b94dca0b82f3698676cb1baa83420ef1_r.jpg" alt=""><br>非常的方便</p><h2 id="给系统换源"><a href="#给系统换源" class="headerlink" title="给系统换源"></a>给系统换源</h2><p>首先在终端里输入以下代码对，/etc/apt/sources.list文件进行修改</p><blockquote><p>sudo nano  /etc/apt/sources.list  </p></blockquote><p>然后将里面的内容全部用’#’注释掉换成以下内容</p><blockquote><p>deb <a href="https://mirror.nju.edu.cn/debian/">https://mirror.nju.edu.cn/debian/</a> bullseye main contrib non-free<br>  deb <a href="https://mirror.nju.edu.cn/debian-security/">https://mirror.nju.edu.cn/debian-security/</a> bullseye-security main contrib non-free<br>  deb <a href="https://mirror.nju.edu.cn/debian">https://mirror.nju.edu.cn/debian</a> bullseye-updates main contrib non-free   </p></blockquote><p>然后CTRL+S保存，CTRL+X退出<br>然后更改第二个文件，/etc/apt/sources.list.d/raspi.list文件进行修改</p><blockquote><p>sudo nano /etc/apt/sources.list.d/raspi.list</p></blockquote><p>然后将里面的内容全部用’#’注释掉换成以下内容</p><blockquote><p>deb <a href="https://mirror.nju.edu.cn/raspberrypi/debian/">https://mirror.nju.edu.cn/raspberrypi/debian/</a> bullseye main</p></blockquote><p>然后CTRL+S保存，CTRL+X退出<br>最后在终端输入以下内容进行测试</p><blockquote><p>sudo apt update<br>sudo apt upgrade</p></blockquote>]]></content>
-      
-      
-      <categories>
-          
-          <category> -树莓派 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> -树莓派 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>原神语录(一)</title>
       <link href="/2023/01/12/%E5%8E%9F%E7%A5%9E%E8%AF%AD%E5%BD%95-%E5%8E%9F%E7%A5%9E%E8%AF%AD%E5%BD%95-%E4%BA%8C/"/>
       <url>/2023/01/12/%E5%8E%9F%E7%A5%9E%E8%AF%AD%E5%BD%95-%E5%8E%9F%E7%A5%9E%E8%AF%AD%E5%BD%95-%E4%BA%8C/</url>
@@ -71,6 +46,31 @@
         <tags>
             
             <tag> -原神 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>树莓派</title>
+      <link href="/2023/01/12/%E6%A0%91%E8%8E%93%E6%B4%BE-%E6%A0%91%E8%8E%93%E6%B4%BE-%E4%B8%80/"/>
+      <url>/2023/01/12/%E6%A0%91%E8%8E%93%E6%B4%BE-%E6%A0%91%E8%8E%93%E6%B4%BE-%E4%B8%80/</url>
+      
+        <content type="html"><![CDATA[<h1 id="树莓派"><a href="#树莓派" class="headerlink" title="树莓派"></a>树莓派</h1><h2 id="系统安装"><a href="#系统安装" class="headerlink" title="系统安装"></a>系统安装</h2><p>准备树莓派SD卡一张，读卡器一个<br>下载烧写软件Raspberry Pi Imager里面可以一键安装系统没有繁琐的操作</p><p>打开软件后有许多操作系统任你下载<br>下载地址：<a href="https://downloads.raspberrypi.org/imager/imager_latest.exe">https://downloads.raspberrypi.org/imager/imager_latest.exe</a><br><img src="https://img-blog.csdnimg.cn/53739ade4a474ddaa11774c8951953fa.png?x-oss-process=image/watermark,type_d3F5LXplbmhlaQ,shadow_50,text_Q1NETiBA5qOu5ZOlMDcwOA==,size_20,color_FFFFFF,t_70,g_se,x_16" alt=""></p><p>如果你下载的是无桌面版可以在这里进行配置再安装<br>在主页面点击设置图片就可以了<br><img src="https://pic2.zhimg.com/v2-b94dca0b82f3698676cb1baa83420ef1_r.jpg" alt=""><br>非常的方便</p><h2 id="给系统换源"><a href="#给系统换源" class="headerlink" title="给系统换源"></a>给系统换源</h2><p>首先在终端里输入以下代码对，/etc/apt/sources.list文件进行修改</p><blockquote><p>sudo nano  /etc/apt/sources.list  </p></blockquote><p>然后将里面的内容全部用’#’注释掉换成以下内容</p><blockquote><p>deb <a href="https://mirror.nju.edu.cn/debian/">https://mirror.nju.edu.cn/debian/</a> bullseye main contrib non-free<br>  deb <a href="https://mirror.nju.edu.cn/debian-security/">https://mirror.nju.edu.cn/debian-security/</a> bullseye-security main contrib non-free<br>  deb <a href="https://mirror.nju.edu.cn/debian">https://mirror.nju.edu.cn/debian</a> bullseye-updates main contrib non-free   </p></blockquote><p>然后CTRL+S保存，CTRL+X退出<br>然后更改第二个文件，/etc/apt/sources.list.d/raspi.list文件进行修改</p><blockquote><p>sudo nano /etc/apt/sources.list.d/raspi.list</p></blockquote><p>然后将里面的内容全部用’#’注释掉换成以下内容</p><blockquote><p>deb <a href="https://mirror.nju.edu.cn/raspberrypi/debian/">https://mirror.nju.edu.cn/raspberrypi/debian/</a> bullseye main</p></blockquote><p>然后CTRL+S保存，CTRL+X退出<br>最后在终端输入以下内容进行测试</p><blockquote><p>sudo apt update<br>sudo apt upgrade</p></blockquote>]]></content>
+      
+      
+      <categories>
+          
+          <category> -树莓派 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> -树莓派 </tag>
             
         </tags>
       

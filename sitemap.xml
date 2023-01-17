@@ -20,9 +20,18 @@
   </url>
   
   <url>
-    <loc>https://www.zhuiyitowdimensionalblog.top/2023/01/14/hexo-hexo-%E4%B8%80/</loc>
+    <loc>https://www.zhuiyitowdimensionalblog.top/2023/01/14/hexo-hexo-%E4%BA%8C/</loc>
     
     <lastmod>2023-01-14</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.zhuiyitowdimensionalblog.top/2023/01/13/hexo-hexo-%E4%B8%80/</loc>
+    
+    <lastmod>2023-01-13</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -139,29 +148,29 @@
 
   <url>
     <loc>https://www.zhuiyitowdimensionalblog.top/</loc>
-    <lastmod>2023-01-16</lastmod>
+    <lastmod>2023-01-17</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
 
   
   <url>
-    <loc>https://www.zhuiyitowdimensionalblog.top/tags/hexo/</loc>
-    <lastmod>2023-01-16</lastmod>
+    <loc>https://www.zhuiyitowdimensionalblog.top/tags/%E5%8E%9F%E7%A5%9E/</loc>
+    <lastmod>2023-01-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://www.zhuiyitowdimensionalblog.top/tags/%E5%8E%9F%E7%A5%9E/</loc>
-    <lastmod>2023-01-16</lastmod>
+    <loc>https://www.zhuiyitowdimensionalblog.top/tags/hexo/</loc>
+    <lastmod>2023-01-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.zhuiyitowdimensionalblog.top/tags/%E6%A0%91%E8%8E%93%E6%B4%BE/</loc>
-    <lastmod>2023-01-16</lastmod>
+    <lastmod>2023-01-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
@@ -169,22 +178,22 @@
 
   
   <url>
-    <loc>https://www.zhuiyitowdimensionalblog.top/categories/hexo/</loc>
-    <lastmod>2023-01-16</lastmod>
+    <loc>https://www.zhuiyitowdimensionalblog.top/categories/%E5%8E%9F%E7%A5%9E%E8%AF%AD%E5%BD%95/</loc>
+    <lastmod>2023-01-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://www.zhuiyitowdimensionalblog.top/categories/%E5%8E%9F%E7%A5%9E%E8%AF%AD%E5%BD%95/</loc>
-    <lastmod>2023-01-16</lastmod>
+    <loc>https://www.zhuiyitowdimensionalblog.top/categories/hexo/</loc>
+    <lastmod>2023-01-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.zhuiyitowdimensionalblog.top/categories/%E6%A0%91%E8%8E%93%E6%B4%BE/</loc>
-    <lastmod>2023-01-16</lastmod>
+    <lastmod>2023-01-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
